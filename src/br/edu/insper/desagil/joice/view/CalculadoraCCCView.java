@@ -1,6 +1,6 @@
 package br.edu.insper.desagil.joice.view;
 
-import br.edu.insper.desagil.joice.model.CalculadoraCCC;
+import br.edu.insper.desagil.joice.model.model.CalculadoraCCC;
 
 public class CalculadoraCCCView extends CalculadoraView {
 	public CalculadoraCCCView() {
