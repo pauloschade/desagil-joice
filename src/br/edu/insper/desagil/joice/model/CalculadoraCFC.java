@@ -2,14 +2,17 @@ package br.edu.insper.desagil.joice.model;
 
 public class CalculadoraCFC extends Calculadora {
 
-	public CalculadoraCFC(String nome) {
-		super(nome);
+	public CalculadoraCFC() {
+		super("CFC");
 	}
 	
 	public double calcula(double peso, double raio) {
-		double numerador = (4/3) * peso * Math.pow(raio, 3) * 4;
-		double denominador = Math.pow((4 * raio) / Math.pow(2, 0.5),3);
-		return numerador/denominador;
+		double numeroAvogadro = 6.02214 * Math.pow(10,23);
+		double raioCm = raio/10000000;
+		double massaAtomica = 4 * peso/numeroAvogadro;
+		double aresta = (Math.pow(2, 1.5) * raioCm);
+		double volume = Math.pow(aresta, 3);
+		return massaAtomica/volume;
 	}
 
 }
