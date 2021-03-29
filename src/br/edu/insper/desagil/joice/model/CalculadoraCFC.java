@@ -3,7 +3,7 @@ package br.edu.insper.desagil.joice.model;
 public class CalculadoraCFC extends Calculadora {
 
 	public CalculadoraCFC() {
-		super("CFC");
+		super("CFC - Cúbica de Face Centrada");
 	}
 	
 	public double calcula(double peso, double raio) {

@@ -3,7 +3,7 @@ package br.edu.insper.desagil.joice.model;
 public class CalculadoraCCC extends Calculadora {
 	
 	public CalculadoraCCC() {
-		super("CCC");
+		super("CCC - Cúbica de Corpo Centrado");
 	}
 	
 	public double calcula(double peso,double raio) {
