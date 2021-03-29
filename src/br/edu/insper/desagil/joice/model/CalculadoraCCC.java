@@ -12,7 +12,7 @@ public class CalculadoraCCC extends Calculadora {
 		double massaAtomica = (4 * peso)/numeroAvogadro;
 		double aresta = (4*raioCm)/(Math.pow(3, 0.5));
 		double volume = Math.pow(aresta, 3);
-		return massaAtomica/volume;
+		return (massaAtomica/volume)/2;
 	}
 
 }
