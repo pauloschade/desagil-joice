@@ -1,5 +1,5 @@
 # desagil-joice
 
 Integrantes:
-Paulo Souza Chade
+Paulo Souza Chade,
 Joao Victor Pazotti Silva
